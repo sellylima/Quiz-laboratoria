@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(134deg, rgba(95, 22, 189, 0.94) 0%, #A3FFE2 88.54%);
+}
+
+.container {
+  display: flex;
+justify-content: center;
+padding-top: 10rem;
+}
+
+.container-imagem {
+  width: 30%;
+  padding-left: 12rem;
+}
+
+.container-nome-jogador h1 {
+  color: #3f2f4e;
+  font-size: 65px;
+  padding: 2.5rem 0;
+}
+
+.container-nome-jogador label {
+  margin-left: 1.1rem;
+  color: #352f2c;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container-nome-jogador input {
+  margin-left: 1rem;
+  width: 300px;
+  height: 35px;
+  background: #EAF2FD;
+  border: none;
+  filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.2));
+  border-radius: 3px;
+}
+
+.botao {
+  width: 30%;
+  margin-left: 10rem;
+  padding: 1.5rem;
+  background: #ffe086;
+  margin-top: 3rem;
+  font-size: 16px;
+  border-style: none;
+  font-weight: bold;
+  filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.1));
+  border-radius: 5px;
+  cursor: pointer;
+}
